@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta  http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Teacher Registration Form</title>
+  </head>
+
+<style>
+    body { 
+        background-color: #3f6165;
+        font: 14px Arial;
+        font-size: 50px;
+        text-align: center; 
+        color: #fff;
+        }
+</style>  
+<body>
+   <script>
+    /*  2. Realizar un programa que ingrese los sueldos de 5 operarios en un vector.
+    Realizar la creación y carga del vector en el constructor. Crear un método para
+    imprimir el vector. */
+
+    const load = (salary) =>{
+        for(let i = 0; i < salary.length; i++){
+            let value = prompt("Add salary:");
+            salary[i] = parseInt(value);
+        }
+    }
+
+    const print = (salary) => {
+        console.log(salary);
+        document.write(salary);
+    }
+
+    let salary = new Array(5);
+
+    load(salary);
+    print(salary);
+
+   </script>
+</body> 
+</html>   
