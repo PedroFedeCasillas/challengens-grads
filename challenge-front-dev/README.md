@@ -32,7 +32,7 @@ Además de eso, es bueno tener un buen editor de código como [VSCode](https://c
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/PedroFedeCasillas/tarjeta_dinamica>
+$ git clone <https://github.com/PedroFedeCasillas/challengens-grads/tree/main/challenge-front-dev>
 
 # Access the project folder using terminal/cmd
 $ cd challenge-front-dev
